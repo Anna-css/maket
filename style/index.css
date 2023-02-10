@@ -1,0 +1,312 @@
+* {
+    box-sizing: border-box;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color:#213B7E;
+    color: #FFFFFF;
+     font-size: 30px;
+    min-height: 80px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    min-height: 80px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    } 
+    .link{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        color: #FFFFFF;
+        width: 113px;
+       min-height: 80px;
+        padding: 0 18px;
+        font-size: 20px;
+        line-height: 23px;
+      }
+
+.link:hover{
+    display:flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    align-items: center;
+    text-decoration: none;
+    color: #213B7E;
+    background-color: #FFFFFF;
+    
+} 
+
+    .login-button {
+        width: 100%;
+        display: flex;
+     font-family:'Roboto' ,sans-serif;
+     font-style: normal;
+    justify-content : center;
+    align-items: center;
+    font-weight: 400;
+    max-width: 153px;
+    padding: 0 10px;
+    text-decoration: none;
+    min-height: 50px;
+    font-size: 18px;
+   background-color: #EA5D21;
+   color:#FFFFFF;
+   line-height: 23px;
+}
+.login-popup{
+    display: none;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-90%);
+    max-width:500px;
+    min-height:418px;
+    padding: 26px 28px 50px;
+    background: #FFFFFF;
+    border: 1px solid #213B7E;
+    background-color: #FFFFFF;
+}  
+
+.login-heading{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color:#000000;
+    text-align: center;
+}
+.login-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.login-form > input{
+    width: 100%;
+    max-width: 500px;
+    min-height: 55px;
+    margin-bottom: 56px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 0 15px;
+}
+.popup-button{
+    height: 50px;
+    width: 153px;
+    background: #EA6113;
+    color:#FFFFFF;
+    border: none;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+}
+.login-popup.show-popup{
+    display: block;
+}
+.main {
+    width: 100%;
+    max-width: 911px;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+.watch {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+.name{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;  
+}
+.main-heading {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+}
+.video{
+width: 100%;
+max-width: 820px;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+.class_img {
+    width: 100%;
+    max-width:523px;
+    }  
+    .map{
+        width: 100%;
+        max-width: 1268px; 
+    }
+    .picture{
+        width: 100%;
+        max-width: 300px ;
+    }
+    .intro{
+        width: 100%;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+max-width: 634px;
+font-size: 18px;
+}
+.about-course{
+    width: 100%;
+font-family: 'Roboto' ,sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+max-width: 634px;
+}
+.show_popup{
+    display: block;
+}
+.word{
+    color: #EA5D21;
+    font-family: 'Roboto' ,sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+.address{
+    width: 100%;
+    font-family: 'Roboto' ,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    width: 439px;
+}
+.students{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+.student{
+    padding-left: 50px;
+}
+.student-name{
+display: block;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+}
+.footer {  
+    width: 100%;
+    display: flex;
+    max-width: 1300px;
+    min-height: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    margin: 0 auto;
+    padding: 0 ;
+    justify-content: center;
+    align-items: center;
+    background-color: #213B7E;
+    text-decoration: none;
+    color: #FFFFFF80;
+    font-weight: 400;
+}
+
+.copy{ 
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #FFFFFF80;
+}
+   .link-2{
+    width: 100%;
+    text-decoration: underline;
+    color: #FFFFFF80;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+   }
+    
+   @media (min-width: 414px) and (max-width:980px){
+.menu{
+    flex-direction: column;
+}
+.main-heading{
+    font-size: 28px;
+ padding: 0 16px;
+}
+.title{
+    font-size: 25px;
+    padding: 0 16px;
+}
+.intro{
+ font-size: 20px;
+ padding: 0 16px;
+}
+.about-course{
+ font-size: 20px;
+ padding: 0 16px;
+}
+.address{
+    font-size: 25px;
+    padding: 0 16px;
+}
+.watch{
+    padding: 0 16px; 
+}
+.copy{
+ font-size: 25px;
+}
+.class_img{
+  
+object-fit: contain;
+}
+.map{
+    object-fit: fill;
+}
+.video{
+    height: auto;
+}
+.name{
+    font-size: 25px;
+    padding: 0 16px;
+}
+   }
