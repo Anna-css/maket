@@ -45,7 +45,10 @@
         font-size: 20px;
         line-height: 23px;
       }
-
+      .active{
+        background-color: #FFFFFF;
+        color: #213B7E; 
+      }
 .link:hover{
     display:flex;
     justify-content: center;
@@ -214,6 +217,14 @@ max-width: 634px;
     font-weight: 400;
     font-size: 18px;
     width: 439px;
+}
+.number{
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+margin-top: 24px;
+text-decoration: underline;
 }
 .students{
     max-width: 1200px;
