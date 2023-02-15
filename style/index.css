@@ -241,7 +241,6 @@ margin: 0;
 list-style-type: none;
 display: flex;
 flex-direction: row;
-flex-wrap: wrap;
 justify-content: flex-start;
 gap:20px 50px;
 }
