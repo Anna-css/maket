@@ -230,6 +230,9 @@ text-decoration: underline;
 .students-list{
     padding: 0 15px;
 }
+.students{
+    max-width: 1200px;
+}
 .student{
 width: 100%;
 padding: 0;
