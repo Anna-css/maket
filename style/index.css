@@ -356,9 +356,8 @@ color: #FFFFFF80;
 .copy{
  font-size: 25px;
 }
-.class_img{
-  
-object-fit: contain;
+.class_photo{
+  padding: 0 15px;
 }
 .map{
     object-fit: fill;
