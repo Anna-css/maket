@@ -258,7 +258,7 @@ color: #000000;
 text-align: center;
 }
 .student-link{
- display: inline-block;
+ display: block;
 width: 100%;
 font-family: 'Roboto', sans-serif;
 font-size: 20px;
