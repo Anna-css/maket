@@ -173,9 +173,10 @@ max-width: 820px;
     font-style: normal;
     font-size: 25px;
 }
-.class_img {
+.class_photo {
     width: 100%;
     max-width:523px;
+    height: auto;
     }  
     .map{
         width: 100%;
