@@ -365,6 +365,9 @@ color: #FFFFFF80;
 .video{
     height: auto;
 }
+.student{
+    flex-wrap: wrap;
+}
 .name{
     font-size: 25px;
     padding: 0 16px;
