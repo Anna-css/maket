@@ -241,6 +241,7 @@ margin: 0;
 list-style-type: none;
 display: flex;
 flex-direction: row;
+flex-wrap: wrap;
 justify-content: flex-start;
 gap:20px 50px;
 }
@@ -269,7 +270,7 @@ text-decoration: none;
 }
 .student-photo{
     width: 100%;
-   height: auto;
+   max-width: 200px;
 }
 .new{
     position: relative;
