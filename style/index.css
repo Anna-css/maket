@@ -345,8 +345,10 @@ color: #FFFFFF80;
   padding: 0 16px;
 }
 .title{
-    font-size: 25px;
+    font-size: 27px;
     padding: 0 16px;
+    font-weight: 700;
+    font-style: normal;
 }
 .intro{
  font-size: 20px;
