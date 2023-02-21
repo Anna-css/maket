@@ -163,9 +163,12 @@
     line-height: 35px;
 }
 .video{
-width: 100%;
-max-width: 820px;
-}
+    width: 100%;
+    max-width: 820px;
+    border: 2px solid #EA5D21;
+    height: auto;
+    aspect-ratio: 16/9;
+    }
 
 .title {
     font-family: 'Roboto', sans-serif;
@@ -178,14 +181,28 @@ max-width: 820px;
     max-width:523px;
     height: auto;
     }  
-    .map{
+     .map{
         width: 100%;
-        max-width: 1290px;
-        height: auto; 
+        max-width: 1268px;
+        border: 0;
     }
     .picture{
         width: 100%;
         max-width: 300px ;
+    }
+    .text{
+        position: relative;
+    }
+    .text::after{
+        position: absolute;
+        right: 0;
+        top: 36px;
+        content: '';
+        display: inline-block;
+        width: 183px;
+        height: 125px;
+        background-image: url(../images/srudytogeher.svg);
+        background-repeat: no-repeat;
     }
     .intro{
         width: 100%;
@@ -230,7 +247,7 @@ max-width: 634px;
     width: 439px;
 }
 .number{
-    font-family: 'Roboto' sans-serif ;
+font-family: 'Roboto' sans-serif ;
 font-size: 18px;
 font-weight: 400;
 line-height: 21px;
