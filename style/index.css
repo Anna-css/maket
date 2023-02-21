@@ -377,6 +377,9 @@ color: #FFFFFF80;
  font-size: 20px;
  padding: 0 16px;
 }
+.text::after{
+    display: none;
+}
 .address{
     font-size: 25px;
     padding: 0 16px;
