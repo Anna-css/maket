@@ -183,7 +183,6 @@
     }  
      .map{
         width: 100%;
-        max-width: 1268px;
         border: 0;
     }
     .picture{
@@ -247,9 +246,9 @@ max-width: 634px;
     width: 439px;
 }
 .number{
-font-family: 'Roboto' sans-serif ;
 font-size: 18px;
 font-weight: 400;
+font-family: 'Roboto',sans-serif;
 line-height: 21px;
 margin-top: 24px;
 text-decoration: underline;
