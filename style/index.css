@@ -189,6 +189,7 @@
         margin: 0 auto;
     }
     .map{
+        width: 100%;
         border: 0;
     }
     .find{
@@ -370,7 +371,7 @@ color: #FFFFFF80;
     font-weight: 400;
    }
     
-   @media (min-width: 415px) and (max-width:900px){
+   @media (max-width:900px){
 .menu{
     flex-direction: column;
     font-size: 25px;
@@ -415,9 +416,6 @@ color: #FFFFFF80;
 }
 .class_photo{
   padding: 0 15px;
-}
-.map{
-    object-fit: fill;
 }
 .video{
     height: auto;
