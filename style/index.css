@@ -181,8 +181,27 @@
     max-width:523px;
     height: auto;
     }  
-     .map{
+    .contacts-main{
         width: 100%;
+        max-width: 1268px;
+        min-height: 370;
+        flex-grow: 1;
+        margin: 0 auto;
+    }
+    .map{
+        border: 0;
+    }
+    .find{
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 35px;
+        padding: 0 45px;
+    }
+     .map{
+     
         border: 0;
     }
     .picture{
@@ -351,7 +370,7 @@ color: #FFFFFF80;
     font-weight: 400;
    }
     
-   @media (min-width: 414px) and (max-width:980px){
+   @media (min-width: 405px) and (max-width:900px){
 .menu{
     flex-direction: column;
     font-size: 25px;
@@ -377,8 +396,10 @@ color: #FFFFFF80;
  font-size: 20px;
  padding: 0 16px;
 }
+@media (min-width: 400px) and (max-width:980px){
 .text::after{
     display: none;
+}
 }
 .address{
     font-size: 25px;
@@ -404,6 +425,11 @@ color: #FFFFFF80;
 }
 .student{
     flex-wrap: wrap;
+}
+@media (min-width:980px) and (max-width:1000px){
+    .student-photo{
+        object-fit: contain;
+    }
 }
 .name{
     font-size: 25px;
