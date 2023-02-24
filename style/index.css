@@ -370,7 +370,7 @@ color: #FFFFFF80;
     font-weight: 400;
    }
     
-   @media (min-width: 405px) and (max-width:900px){
+   @media (min-width: 415px) and (max-width:900px){
 .menu{
     flex-direction: column;
     font-size: 25px;
@@ -396,10 +396,9 @@ color: #FFFFFF80;
  font-size: 20px;
  padding: 0 16px;
 }
-@media (min-width: 400px) and (max-width:980px){
 .text::after{
     display: none;
-}
+
 }
 .address{
     font-size: 25px;
@@ -426,10 +425,9 @@ color: #FFFFFF80;
 .student{
     flex-wrap: wrap;
 }
-@media (min-width:980px) and (max-width:1000px){
     .student-photo{
         object-fit: contain;
-    }
+
 }
 .name{
     font-size: 25px;
