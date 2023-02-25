@@ -371,7 +371,7 @@ color: #FFFFFF80;
     font-weight: 400;
    }
     
-   @media (max-width:900px){
+   @media (min-width: 415px) and (max-width:900px){
 .menu{
     flex-direction: column;
     font-size: 25px;
@@ -397,15 +397,15 @@ color: #FFFFFF80;
  font-size: 20px;
  padding: 0 16px;
 }
-@media (max-width:900px){
 .text::after{
     display: none;
-}
-
 }
 .address{
     font-size: 25px;
     padding: 0 16px;
+}
+.map{
+    object-fit: contain;
 }
 .number{
     padding: 0 15px;
