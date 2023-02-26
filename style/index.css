@@ -412,7 +412,7 @@ color: #FFFFFF80;
     padding: 0 16px;
 }
 .map{
-    object-fit: contain;
+    height: auto;
 }
 .number{
     padding: 0 15px;
