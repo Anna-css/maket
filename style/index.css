@@ -393,6 +393,9 @@ color: #FFFFFF80;
     font-weight: 700;
     font-style: normal;
 }
+.login-popup{
+bottom: -223px;
+}
 .intro{
  font-size: 20px;
  padding: 0 16px;
