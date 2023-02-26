@@ -378,7 +378,7 @@ color: #FFFFFF80;
     font-weight: 400;
    }
     
-   @media (min-width: 415px) and (max-width:900px){
+   @media (max-width:900px){
 .menu{
     flex-direction: column;
     font-size: 25px;
