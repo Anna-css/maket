@@ -393,6 +393,8 @@ color: #FFFFFF80;
     font-weight: 700;
     font-style: normal;
 }
+   }
+@media (max-width:900px){
 .login-popup{
 bottom: -223px;
 }
