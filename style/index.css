@@ -133,6 +133,13 @@
 .login-popup.show-popup{
     display: block;
 }
+.close-popup{
+    position: absolute;
+    top: -30px;
+    right: -25px;
+    overflow: hidden;
+    cursor: pointer;
+}
 .main {
     width: 100%;
     max-width: 911px;
