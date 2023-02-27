@@ -407,6 +407,8 @@ color: #FFFFFF80;
 }
 .contacts-title{
     padding: 0 45px;
+    font-weight: 700;
+    font-style: normal;
 }
 .about-course{
  font-size: 20px;
