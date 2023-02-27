@@ -417,6 +417,9 @@ color: #FFFFFF80;
 .text::after{
     display: none;
 }
+.login-popup{
+    transform: translate(-50%,-36%);
+}
 .address{
     font-size: 25px;
     padding: 0 45px;
