@@ -398,6 +398,9 @@ color: #FFFFFF80;
     font-weight: 700;
     font-style: normal;
 }
+.picture{
+    padding: 0 15;
+}
 .intro{
  font-size: 20px;
  padding: 0 16px;
