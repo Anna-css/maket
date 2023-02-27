@@ -318,6 +318,7 @@ text-decoration: none;
 .student-photo{
     width: 100%;
    max-width: 200px;
+   object-fit: contain;
 }
 .new{
     position: relative;
@@ -424,10 +425,6 @@ color: #FFFFFF80;
 }
 .student{
     flex-wrap: wrap;
-}
-    .student-photo{
-        object-fit: contain;
-
 }
 .name{
     font-size: 25px;
