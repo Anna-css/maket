@@ -176,7 +176,13 @@
     height: auto;
     aspect-ratio: 16/9;
     }
-
+.contacts-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    padding: 0 45px;
+}
 .title {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -267,6 +273,7 @@ max-width: 634px;
     font-weight: 400;
     font-size: 18px;
     width: 439px;
+    padding: 0 45px;
 }
 .number{
 font-size: 18px;
@@ -275,6 +282,7 @@ font-family: 'Roboto',sans-serif;
 line-height: 21px;
 margin-top: 24px;
 text-decoration: underline;
+padding: 0 45px;
 }
 .students-list{
     padding: 0 15px;
