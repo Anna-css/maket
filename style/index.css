@@ -405,6 +405,9 @@ color: #FFFFFF80;
 .intro-about{
     font-size: 30px;
 }
+.contacts-title{
+    padding: 0 45px;
+}
 .about-course{
  font-size: 20px;
  padding: 0 16px;
@@ -414,10 +417,10 @@ color: #FFFFFF80;
 }
 .address{
     font-size: 25px;
-    padding: 0 16px;
+    padding: 0 45px;
 }
 .number{
-    padding: 0 15px;
+    padding: 0 45px;
 }
 .watch{
     padding: 0 16px; 
