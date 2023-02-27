@@ -218,6 +218,11 @@
     .picture{
         width: 100%;
         max-width: 300px ;
+        padding: 0 15px;
+    }
+    .art{
+        width: 100%;
+        padding: 0 15px;
     }
     .text{
         position: relative;
@@ -439,6 +444,13 @@ color: #FFFFFF80;
 }
 .class_photo{
   padding: 0 15px;
+}
+.picture{
+    padding: 0 15px;
+}
+.art{
+    padding: 0 15px;
+    object-fit: contain;
 }
 .video{
     height: auto;
