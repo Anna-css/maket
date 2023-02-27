@@ -127,7 +127,7 @@
     background: #EA6113;
     color:#FFFFFF;
     border: none;
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
